@@ -1,0 +1,11 @@
+./SampleApps/STM32F407/Build/EWARM/
+./SampleApps/STM32F407/Build/MD-ARM/
+./SampleApps/STM32F407/Bin/
+/.metadata/
+./AWECore/Docs/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin

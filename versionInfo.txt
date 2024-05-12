@@ -1,0 +1,49 @@
+ 
+CortexM4 Build -- AWECore Source
+Built on:     Tue Jan 23 10:25:57 EST 2024
+Build name:   release.awecore.cortexm-392
+Built from:   awecore-common
+Version:      AC-8.D.6_ACOS-8.B.16
+SHA:          61ff6e0
+
+CortexM4 Build -- Target Source
+Built on:     Tue Jan 23 10:25:58 EST 2024
+Build name:   release.awecore.cortexm-392
+Built from:   awecore-cortexm
+Version:      v11
+SHA:          89bf30e
+
+CortexM4 Build -- Toolchain Info: [ewarm-8.4, mdk-arm-5.29, sw4stm32-1.17]
+Built on:     Tue Jan 23 10:26:00 EST 2024
+Build name:   release.awecore.cortexm-392
+Built from:   dspc-cmake-toolchains
+Version:      master
+SHA:          dc9bffa
+
+Recipe File Used: Release-8.D.2.3.recipe
+Built on:     Tue Jan 23 10:26:01 EST 2024
+Build name:   release.awecore.cortexm-392
+Built from:   awecore-recipes
+Version:      master
+SHA:          49ecb4d
+
+AWECore Build -- Module Set: awe-mod-ext-st
+Built on:     Tue Jan 23 10:26:02 EST 2024
+Build name:   release.awecore.cortexm-392
+Built from:   awe-mod-ext-st
+Version:      ST-1.07
+SHA:          6be514f
+
+  
+Includes 3600 second evaluation timeout. 
+  
+Built with additional defines: -DST_LICENSE_CHECK=TRUE -DSTANDARD_MODS_ONLY=TRUE  
+  
+------ Sample Applications ------ 
+STM32F407 Sample Application
+Built on:     Tue Jan 23 10:33:06 EST 2024
+Build name:   release.awecore.cortexm-392
+Built from:   awe8-bsp-stm32f407-discovery
+Version:      master
+SHA:          3629354
+

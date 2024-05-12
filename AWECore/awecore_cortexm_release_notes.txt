@@ -1,0 +1,62 @@
+
+                    AWECORE ARM CORTEXM RELEASE NOTES
+
+===============================================================================
+VERSION: 11
+RELEASE DATE: 2023-Jan-25
+-------------------------------------------------------------------------------                 
+    NOTABLE UPDATES
+        - Fixed issue where ADSR module wouldn't release if triggered before sustain
+        - Internal updates to support latest AWE Core library (8.D.1)
+
+===============================================================================
+VERSION: 10
+RELEASE DATE: 2022-Nov-9
+-------------------------------------------------------------------------------                 
+    NOTABLE UPDATES
+        - Fixed regression test failure for the BiquadSparseV6
+
+===============================================================================
+VERSION:  9
+RELEASE DATE: 2022-Sept-21
+-------------------------------------------------------------------------------                 
+    NOTABLE UPDATES
+        - Added support and optimizations for Cortex M55/U55 processors
+        - Fixed audio artifacts with certain biquad filters
+        - Internal code management improvements
+
+===============================================================================
+VERSION:  8
+RELEASE DATE: 2022-Jul-5
+-------------------------------------------------------------------------------                 
+    NOTABLE UPDATES
+        - Optimizations for the circular read/write Vectorlib functions
+        - Support for new BiquadSparseV6 module
+
+===============================================================================
+VERSION:  7
+RELEASE DATE: 2022-Jan-7
+-------------------------------------------------------------------------------                 
+    NOTABLE UPDATES
+        - Remove fract32 modules by default from AWECore build ModuleList.h
+        - Internal updates to support new FilterBankFIRNChan module
+
+===============================================================================
+VERSION:  6
+RELEASE DATE: 2021-Oct-31
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+    - Improve accuracy of smoothing coefficient calculations for IAR/EWARM Arm CortexM targets
+    - Correct CortexM code for circular buffers and delay lines
+    - Internal improvements for more toolchain support
+
+===============================================================================
+VERSION:  4
+RELEASE DATE: 2021-Mar-16
+-------------------------------------------------------------------------------
+    NOTABLE UPDATES
+    - Fixes made to some delay functions to allow Fractional Delay module tests to pass
+    
+    KNOWN ISSUES
+    - FIR modules force coefficients to be in reverse order. This can cause issues when users are manually updating the coefficients at run time. 
+        
